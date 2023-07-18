@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
  *main - Entry point
- *Description: 'print lowercase alphabet except q and e'
+ *Description: 'prints numbers of base 10 from 0'
  *Return: always 0
  */
 int main(void)
 {
-	int n = 97;
+	int n = 48;
 
-	while (n <= 122 && (n != 101 && n != 113))
+	while (n <= 57)
 	{
 		putchar(n);
 		n++;
@@ -16,3 +16,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+
